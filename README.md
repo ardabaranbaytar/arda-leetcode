@@ -29,6 +29,7 @@ Each solution includes:
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | String, Dynamic Programming, Expand Around Center |
 | 6 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | Medium | String, Simulation |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Medium | Math |
+| 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | Medium | String |
 
 
 
