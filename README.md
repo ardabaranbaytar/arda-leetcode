@@ -30,6 +30,6 @@ Each solution includes:
 | 6 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | Medium | String, Simulation |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Medium | Math |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | Medium | String |
-
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | Math, Two Pointers |
 
 
