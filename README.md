@@ -31,5 +31,6 @@ Each solution includes:
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Medium | Math |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | Medium | String |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | Math, Two Pointers |
+| 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | Hard | Dynamic Programming, Recursion |
 
 
