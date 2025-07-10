@@ -1,0 +1,29 @@
+# LeetCode Problem 13: Roman to Integer
+# Link: https://leetcode.com/problems/roman-to-integer/
+# Difficulty: Easy
+# Tags: String, Hash Table
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
+class Solution:
+    def romanToInt(self, s: str) -> int:
+        roman_map = {
+            'I': 1, 'V': 5, 'X': 10, 'L': 50,
+            'C': 100, 'D': 500, 'M': 1000
+        }
+
+        total = 0
+        prev = 0
+
+        for char in s:
+            curr = roman_map[char]
+
+            # If the current value is greater than the previous, adjust for subtractive notation
+            if curr > prev:
+                total += curr - 2 * prev
+            else:
+                total += curr
+
+            prev = curr
+
+        return total
