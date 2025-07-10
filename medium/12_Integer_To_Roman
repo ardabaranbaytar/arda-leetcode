@@ -1,0 +1,30 @@
+# LeetCode Problem 12: Integer to Roman
+# Link: https://leetcode.com/problems/integer-to-roman/
+# Difficulty: Medium
+# Tags: String, Greedy, Math
+# Time Complexity: O(1) — the loop runs at most 13 iterations (fixed symbol list)
+# Space Complexity: O(1)
+
+class Solution:
+    def intToRoman(self, num: int) -> str:
+        # Mapping of values to Roman numeral symbols
+        val = [
+            1000, 900, 500, 400,
+            100, 90, 50, 40,
+            10, 9, 5, 4, 1
+        ]
+        
+        syms = [
+            "M", "CM", "D", "CD",
+            "C", "XC", "L", "XL",
+            "X", "IX", "V", "IV", "I"
+        ]
+        
+        # Build the Roman numeral string greedily
+        roman = ""
+        for i in range(len(val)):
+            while num >= val[i]:
+                roman += syms[i]
+                num -= val[i]
+        
+        return roman
