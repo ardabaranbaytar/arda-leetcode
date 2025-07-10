@@ -35,5 +35,6 @@ Each solution includes:
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | Two Pointers, Greedy |
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | Medium | String, Greedy, Math |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | String, Hash Table |
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | String |
 
 
