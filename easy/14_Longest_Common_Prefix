@@ -1,0 +1,23 @@
+# LeetCode Problem 14: Longest Common Prefix
+# Link: https://leetcode.com/problems/longest-common-prefix/
+# Difficulty: Easy
+# Tags: String
+# Time Complexity: O(S) — where S is the total number of characters in all strings
+# Space Complexity: O(1)
+
+class Solution:
+    def longestCommonPrefix(self, strs: list[str]) -> str:
+        if not strs:
+            return ""
+        
+        # Start with the first string as the initial prefix
+        prefix = strs[0]
+
+        for word in strs[1:]:
+            # Shrink the prefix until it matches the beginning of each word
+            while word[:len(prefix)] != prefix:
+                prefix = prefix[:-1]
+                if not prefix:
+                    return ""
+
+        return prefix
